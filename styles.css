@@ -1,0 +1,182 @@
+* {
+   /* background-color: slategray;*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* image formatting */
+.logo {
+    height: auto;
+    width: 100px;
+}
+
+.hero-image {
+    height: auto;
+    width: 500px;
+}
+
+.feature-image {
+    height: auto;
+    width: 200px;
+}
+/* general formatting */
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background-color: slategray;
+    color: cyan;
+    border-radius: 8px;
+    padding: 8px 20px; 
+    border: 1px solid cyan;   
+}
+
+/* Section Formatting */
+/* Body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header-links {
+    background-color: lightgray;
+    padding: 8px;
+    margin: 16px;
+    border: 1px solid cyan;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 24px;
+}
+
+.hero-text-box {
+    background-color: lightgray;
+    margin-bottom: 16px;
+    border: 1px solid cyan;
+    padding: 24px;
+}
+
+.hero-bold {
+    font-weight: 900;
+    margin-bottom: 8px;
+    background-color: lightgray;
+}
+
+.hero-lite {
+    margin-bottom: 8px;
+    background-color: lightgray;
+}
+
+/* Features */
+.features {
+    text-align: center;   
+    background-color: black;
+}
+.features-bold {
+    font-weight: 700;
+    font-size: 24px;
+    color: lightgray;
+    padding: 16px;
+}
+
+.features-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.info-block {
+    margin: 16px;
+}
+
+.info-text {
+    margin: 8px;
+}
+
+.feature-image {
+    padding: 16px;
+}
+
+
+/* Quote */
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.quote-box {
+    width: 700px;
+    padding: 50px;
+    background-color: black;
+    color: lightgray;
+    margin: 16px;
+}
+
+.quote-text {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Action */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.action-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    background-color: lightgray;
+    color: black;
+    margin: 24px;
+    padding: 24px 50px;
+}
+
+.action-text-bold {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
